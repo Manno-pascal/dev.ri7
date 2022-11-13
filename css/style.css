@@ -5,15 +5,11 @@
 }
 
 .bg-color-2{
-    background-color: #101214;
+    background-color: #101214 !important;
 }
 
 .color-1{
     color: beige;
-}
-
-.br-color-1{
-border-color: red !important;
 }
 
 .particle:hover, button:hover{
