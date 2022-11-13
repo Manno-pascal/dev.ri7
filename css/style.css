@@ -25,6 +25,7 @@
 }
 .form-switch .form-check-input:checked {
     background-color: #dc3545;
+    border: #dc3545;
 }
 
 .particle:hover, button:hover{
