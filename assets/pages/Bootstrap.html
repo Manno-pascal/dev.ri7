@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outils de dev</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    ">
+</head>
+
+
+
+<body class="color-1 bg-color-2">
+
+    <header class="bg-color-1 light px-2">
+        <div class="container">
+            <div class="row text-center">
+                <h1>Salut l'équipe !</h1>
+            </div>
+            <div class="row text-center">
+                <p>Ici, tu trouveras des outils pour t'aider dans l'apprentissage du codage ! N'hésite pas à m'envoyer
+                    sur
+                    discord (<span class="text-danger"> Demotar#9809 </span>) des sites et des outils utiles au dev !
+                    Bises</p>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input mx-auto" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+                    onclick="myFunction()" checked>
+                <label class="form-check-label" for="flexSwitchCheckDefault">Dark mode</label>
+            </div>
+        </div>
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-color-1">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/assets/pages/html.html">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/assets/pages/CSS.html">CSS</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/assets/pages/Bootstrap.html">Bootstrap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/assets/pages/JS.html">Javascript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/assets/pages/JS.html">Bases de données</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr class="border-danger">
+    </header>
+    <main>
+        <section class="container">
+            <h2>Bootstrap</h2>
+            <div class="d-flex row">
+                <article class="particle border-danger col-lg-3 col-md-4 col-sm-6 bg-color-1 m-1 p-3 light">
+                    <h3>Docs Bootstrap et liens style/JS</h3>
+                    <div class="text-center"><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                            target="_blank"><img class="border-dark col-8" src="/assets/image/bootstrap.png"
+                                alt="logo bootstrap"></a></div>
+                    <p class="text-break">https://getbootstrap.com/docs/5.0/getting-started/introduction/</p>
+
+                    <div>
+                        <p class="text-break">CSS :
+                            <span
+                                class="text-danger">https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css</span>
+                        </p>
+                        <button class="border-danger rounded bg-secondary text-white" onclick="copyCSS()">Copier le lien
+                            CSS</button>
+                        <p class="text-break mt-5">JS :
+                            <span
+                                class="text-danger">https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js</span>
+                        </p>
+                        <button class="border-danger rounded bg-secondary text-white" onclick="copyJS()">Copier le lien
+                            JS</button>
+                    </div>
+                </article>
+                <article class="particle border-danger col-lg-3 col-md-4 col-sm-6 bg-color-1 m-1 p-3 light">
+                    <h3>Mémento Bootstrap</h3>
+                    <div class="text-center"><a href="https://bootstrap-cheatsheet.themeselection.com"
+                            target="_blank"><img class="border-dark col-8" src="/assets/image/bootstrap.png"
+                                alt="logo bootstrap"></a></div>
+                    <p class="text-break">https://bootstrap-cheatsheet.themeselection.com</p>
+                    <p class="text-break">La liste des class de Bootstrap.</p>
+                </article>
+            </div>
+        </section>
+        <hr class="border-danger">
+
+    </main>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/script/script.js"></script>
+
+</body>
+
+</html>
